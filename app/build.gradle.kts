@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.work:work-runtime:2.9.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
